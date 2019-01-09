@@ -20,20 +20,20 @@ module.exports = class extends Generator {
       this.destinationPath('variables.tf')
     )
     this.fs.copy(
-      this.templatePath('Gemfile'),
-      this.destinationPath('Gemfile')
+        this.templatePath('README.md'),
+        this.destinationPath('README.md')
     )
     this.fs.copy(
-      this.templatePath('.kitchen.yml'),
-      this.destinationPath('.kitchen.yml')
+        this.templatePath('.gitignore'),
+        this.destinationPath('.gitignore')
     )
     this.fs.copy(
-      this.templatePath('test/fixtures/default/main.tf'),
-      this.destinationPath('test/fixtures/default/main.tf')
+        this.templatePath('.gitignore'),
+        this.destinationPath('.gitignore')
     )
     this.fs.copy(
-      this.templatePath('test/integration/default/controls/test.rb'),
-      this.destinationPath('test/integration/default/controls/test.rb')
+        this.templatePath('examples'),
+        this.destinationPath('examples')
     )
   };
 };

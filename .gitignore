@@ -1,4 +1,4 @@
-.kitchen
+.idea
 .terraform
 node_modules
 terraform.tfstate.d
