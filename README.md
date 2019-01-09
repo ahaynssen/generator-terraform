@@ -1,31 +1,23 @@
 # generator-terraform
 
-This is a small [Yeoman](yeoman) generator. It stubs out a simple Terraform module that is setup to test with [Kitchen Terraform](kitchen-terraform).
+This is a small [Yeoman](yeoman) generator. It stubs out a simple Terraform module.
 
 ### Requirements:
-- [Yeoman](yeoman)
-- [bundler](bundler)
+- [Yeoman](https://yeoman.io/learning/)
 
 ### Using:
 ```
+# Install Yeoman
+npm install -g yo
+
 # Install the generator from remote github or from local branch
-npm install git+https://git@github.com/newcontext-oss/generator-terraform.git
+npm install git+https://git@github.com/ahaynssen/generator-terraform.git
 
 # local install
-git clone https://github.com/newcontext/generator-terraform.git
+git clone https://github.com/ahaynssen/generator-terraform.git
 cd generator-terraform
 npm link
 
 # Run the generator
 yo terraform
-
-# Install ruby pre-reqs
-bundle install
-
-# Test the module
-bundle exec kitchen test
 ```
-
-[yeoman]: yeoman.io
-[kitchen-terraform]: https://github.com/newcontext-oss/kitchen-terraform/
-[bundler]: https://bundler.io/
