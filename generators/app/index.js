@@ -20,8 +20,8 @@ module.exports = class extends Generator {
       this.destinationPath('variables.tf')
     )
     this.fs.copy(
-        this.templatePath('tags.tf'),
-        this.destinationPath('tags.tf')
+        this.templatePath('tags_variables.tf'),
+        this.destinationPath('tags_variables.tf')
     )
     this.fs.copy(
         this.templatePath('README.md'),
