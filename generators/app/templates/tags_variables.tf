@@ -1,6 +1,6 @@
 variable "tags_eng_project" {
   description = "A team or project name using the resource."
-  default     = "loggingfoundation"
+  default     = ""
 }
 
 variable "tags_eng_app_environment" {
@@ -9,12 +9,12 @@ variable "tags_eng_app_environment" {
 
 variable "tags_eng_app_name" {
   description = "The name of the app or general function area of the resource."
-  default     = "awsapi"
+  default     = ""
 }
 
 variable "tags_eng_app_svc" {
   description = "The service provided by the resource or specific function area of the resource."
-  default     = "cloudtrail"
+  default     = ""
 }
 
 variable "tags_bill_costcenter" {
